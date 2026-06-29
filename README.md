@@ -10,13 +10,18 @@ le Décret 2025-227, et les cadres UEMOA/CEDEAO.
 
 ```
 qhse-skill/
-├── SKILL.md                 # Point d'entrée + routage
-├── references/
-│   ├── company.md           # Contexte organisationnel (à remplir)
-│   ├── standards.md         # ISO 9001, 14001:2026, 45001
-│   ├── senegal.md           # Réglementation Sénégal/Afrique Ouest
-│   ├── tools.md             # Outils QHSE open-source
-│   └── templates.md         # Templates inspection, incident, CAPA, JSA
+├── qhse/                     # 📦 Skill folder (ce dossier est le skill)
+│   ├── SKILL.md              # Point d'entrée + routage
+│   └── references/
+│       ├── company.md        # Contexte organisationnel (à remplir)
+│       ├── standards.md      # ISO 9001, 14001:2026, 45001
+│       ├── senegal.md        # Réglementation Sénégal/Afrique Ouest
+│       ├── tools.md          # Outils QHSE open-source
+│       └── templates.md      # Templates inspection, incident, CAPA, JSA
+├── scripts/
+│   └── validate.py           # Validation CI (frontmatter, refs, hygiene)
+├── .github/workflows/
+│   └── package.yml           # CI: validation + packaging .zip / .skill
 ├── README.md
 └── LICENSE
 ```
@@ -31,7 +36,14 @@ cp -r qhse/ ~/.config/opencode/skills/qhse/
 
 ### Claude.ai / Claude Code
 
-Charger le dossier comme skill dans les paramètres.
+1. Télécharger `qhse-skill.zip` depuis la dernière [Release](https://github.com/mahmoudou-diallo/qhse-skill/releases)
+2. Settings → Skills → Upload skill
+
+### skills.sh (bientôt)
+
+```bash
+npx skills install mahmoudou-diallo/qhse-skill
+```
 
 ## Utilisation
 
