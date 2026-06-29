@@ -1,3 +1,5 @@
+[![skills.sh](https://skills.sh/b/mahmoudou-diallo/qhse-skill)](https://skills.sh/mahmoudou-diallo/qhse-skill)
+
 # QHSE Skill — Quality, Health, Safety, Environment
 
 Skill OpenCode pour les professionnels QHSE en Afrique de l'Ouest.
