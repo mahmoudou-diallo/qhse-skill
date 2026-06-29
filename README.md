@@ -2,7 +2,9 @@
 
 # QHSE Skill — Quality, Health, Safety, Environment
 
-Skill OpenCode pour les professionnels QHSE en Afrique de l'Ouest.
+Skill QHSE compatible avec **tous les agents LLM** : Claude Code, OpenCode, Cursor, Windsurf, Cline, Roo Code, Gooses, Antigravity, Gemini, GitHub Copilot, Codex, et tout agent supportant les skills au format standard.
+
+Professionnels QHSE en Afrique de l'Ouest.
 
 Couvre ISO 9001 (Qualité), ISO 14001:2026 (Environnement), ISO 45001 (SST),
 le Code du Travail sénégalais, le Code de l'Environnement 2023-15,
@@ -36,10 +38,17 @@ qhse-skill/
 cp -r qhse/ ~/.config/opencode/skills/qhse/
 ```
 
-### Claude.ai / Claude Code
+### Claude.ai / Claude Code / Antigravity / Hermes
 
 1. Télécharger `qhse-skill.zip` depuis la dernière [Release](https://github.com/mahmoudou-diallo/qhse-skill/releases)
 2. Settings → Skills → Upload skill
+
+### Cursor / Windsurf / Cline / Roo Code / Gooses
+
+```bash
+# Glisser-déposer le dossier qhse/ dans l'interface du skill
+# Ou pointer le chemin local vers le dossier
+```
 
 ### skills.sh (bientôt)
 
